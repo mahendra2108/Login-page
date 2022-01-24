@@ -1,0 +1,71 @@
+.login_page {
+  margin: 0;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #17d7a0, #32c1cd);
+}
+
+.mail {
+  position: absolute;
+  left: 20px;
+  top: 8px;
+  opacity: 0.8;
+}
+
+.user {
+  position: relative;
+}
+.pass {
+  position: relative;
+}
+
+.lock {
+  position: absolute;
+  left: 20px;
+  top: 8px;
+  opacity: 0.8;
+}
+
+.user_icon {
+  width: 97%;
+  height: 40px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  outline: none;
+}
+.pass_icon {
+  width: 97%;
+  height: 40px;
+}
+
+.password {
+  height: 40px;
+}
+.button1 {
+  align-items: center;
+  margin-top: 30px;
+  background-color: blue;
+  height: 40px;
+  color: white;
+  border: blue;
+  width: 100%;
+}
+
+.card {
+  padding: 100px 50px;
+  width: 300px;
+  height: 250px;
+}
+h3 {
+  font-weight: 600;
+}
+.error {
+  color: red;
+  display: flex;
+  justify-content: flex-start;
+  margin: 5px 5px;
+}

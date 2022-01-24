@@ -1,0 +1,53 @@
+.Sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.sidebarRow {
+  display: flex;
+  align-items: center;
+}
+.sidebar1 {
+  flex: 20%;
+}
+.sidebar2 {
+  flex: 80%;
+}
+.sidebarRow:hover > .sidebarRow_icon {
+  color: red;
+}
+.sidebarRow:hover > .sidebarRow_title {
+  font-weight: 400;
+}
+.sidebarRow_icon {
+  color: #606060;
+  font-size: large !important;
+  size: 30px;
+}
+.sidebarRow_title {
+  margin-left: 10px;
+}
+.header1 {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgray;
+}
+.header1 > span > button {
+  margin-right: 30px;
+}
+.btn1 {
+  background-color: orange;
+  color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 2px 6px;
+}
+.btn2 {
+  background-color: darkblue;
+  color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 2px 6px;
+}

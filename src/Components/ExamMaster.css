@@ -1,0 +1,41 @@
+.masster_button {
+  display: flex;
+}
+.exam_master {
+  background-color: #fffdde;
+  height: 100px;
+}
+
+.masster_button > button:hover {
+  background-color: royalblue;
+  color: white;
+}
+.master {
+  margin-top: 20px;
+}
+.exam_button {
+  margin-left: 0px;
+}
+.subExam_btn {
+  margin-left: 10px;
+  background-color: white;
+}
+.grade_btn {
+  margin-left: 10px;
+  background-color: white;
+}
+.marks_btn {
+  margin-left: 10px;
+  background-color: white;
+}
+.masster_button > button {
+  height: 30px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  color: blue;
+  background-color: white;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}

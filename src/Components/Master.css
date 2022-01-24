@@ -1,0 +1,68 @@
+.add_item {
+  margin: auto;
+}
+.add_exam {
+  display: flex;
+  flex-wrap: wrap;
+}
+.status {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.syllabus {
+  display: flex;
+  flex-direction: column;
+}
+.exam_name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.add_exam {
+  display: flex;
+  margin: auto;
+}
+.exam_list {
+  display: flex;
+  justify-content: space-between;
+}
+.search {
+  display: flex;
+}
+.entries {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 1px 15px;
+}
+.table_data > table {
+  width: 100%;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+}
+th {
+  border: 1px solid #dddddd;
+}
+.table_data > tr > p {
+  text-align: center;
+}
+.entries_data {
+  padding: 15px;
+}
+.button_add {
+  margin-top: 48px;
+  margin-left: 10px;
+}
+.add_button {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 2px 20px;
+  border: 1px solid blue;
+}
+.add_exam > span > label {
+  margin-bottom: 5px;
+  margin-top: 25px;
+  font-weight: 700;
+}

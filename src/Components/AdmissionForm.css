@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header > button {
+  color: black;
+  cursor: pointer;
+}
+
+.admissionForm {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: center;
+}
+.row2 {
+  margin-left: 30px;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+}
+.address > label {
+  display: block;
+}
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
+  background-color: white;
+  border: 2px solid #000;
+  padding: 20px 50px 50px;
+  border-radius: 15px;
+}
+.save {
+  background-color: green;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.add {
+  background-color: skyblue;
+  margin-left: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.close {
+  background-color: red;
+  margin-left: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.address > label {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+h1 {
+  font-weight: 320;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-right: 0px;
+}

@@ -1,0 +1,10 @@
+.admission > label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.admission > input {
+  height: 30px;
+  width: 100%;
+}
